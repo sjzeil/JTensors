@@ -1,0 +1,8 @@
+remote_theme: jekyll/minima
+title: "JTensors"
+description: "A lightweight tensor library for Java."
+header_pages:
+  - javadoc/index.html
+  - tests/test/index.html
+skin: dark
+  
