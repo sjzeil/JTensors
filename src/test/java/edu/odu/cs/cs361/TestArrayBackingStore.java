@@ -126,7 +126,7 @@ public class TestArrayBackingStore {
         @Test
     public void testAssign3() {
         int[] dimensions = {5, 7, 6};
-        ArrayBackingStore<String> storage = new ArrayBackingStore<>(dimensions, null);
+        ArrayBackingStore<String> storage = new ArrayBackingStore<String>(dimensions, null);
 
         int[] index = {2, 3, 4};
         storage.assign("test1", index);

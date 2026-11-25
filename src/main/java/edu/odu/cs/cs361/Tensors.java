@@ -1,5 +1,9 @@
 package edu.odu.cs.cs361;
 
+/**
+ * A collection of sample functions for manipulating numeric tensors.
+ * Tensors
+ */
 public class Tensors {
 
     /**

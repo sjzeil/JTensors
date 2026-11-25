@@ -2,6 +2,9 @@ package edu.odu.cs.cs361;
 
 import java.util.Arrays;
 
+/**
+ * An n-dimensional index into a rectangular storage model.
+ */
 public class Index {
 
     int[] shape;

@@ -122,7 +122,7 @@ public class TestHashedBackingStore {
         @Test
     public void testAssign3() {
         int[] dimensions = {5, 7, 6};
-        HashedBackingStore<String> storage = new HashedBackingStore<>(dimensions, null);
+        HashedBackingStore<String> storage = new HashedBackingStore<String>(dimensions, null);
 
         int[] index = {2, 3, 4};
         storage.assign("test1", index);
